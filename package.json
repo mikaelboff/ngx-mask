@@ -1,6 +1,6 @@
 {
-    "name": "ngx-mask",
-    "version": "14.2.4",
+    "name": "ngx-mask-custom",
+    "version": "14.2.5",
     "description": "awesome ngx mask",
     "license": "MIT",
     "engines": {
@@ -37,7 +37,7 @@
         "publish:lib": "cd dist/ngx-mask-lib && npm publish",
         "release:major": "npm run version:major && npm run build:lib && npm run pack:lib && npm run publish:lib",
         "release:minor": "npm run version:minor && npm run build:lib && npm run pack:lib && npm run publish:lib",
-        "release:patch": "npm run version:patch && npm run build:lib && npm run pack:lib && npm run publish:lib",
+        "release:patch": "npm run build:lib && npm run pack:lib && npm run publish:lib",
         "start": "ng serve -o showcase --hmr",
         "start-prod": "angular-http-server --path dist/showcase --p 3000 --silent",
         "test": "npm run test:lib",
@@ -52,7 +52,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/JsDaddy/ngx-mask.git"
+        "url": "https://github.com/mikaelboff/ngx-mask.git"
     },
     "dependencies": {
         "@angular/animations": "14.2.8",

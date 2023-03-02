@@ -1,6 +1,6 @@
 {
-    "name": "ngx-mask",
-    "version": "14.2.4",
+    "name": "ngx-mask-custom",
+    "version": "14.2.5",
     "description": "awesome ngx mask",
     "keywords": [
         "ng2-mask",
@@ -15,17 +15,17 @@
         "jsdaddy"
     ],
     "license": "MIT",
-    "author": "ngx-mask",
+    "author": "ngx-mask-custom",
     "contributors": [
-        "ngx-mask"
+        "ngx-mask-custom"
     ],
-    "homepage": "https://github.com/JsDaddy/ngx-mask",
+    "homepage": "https://github.com/mikaelboff/ngx-mask",
     "repository": {
         "type": "git",
-        "url": "git@github.com:JsDaddy/ngx-mask.git"
+        "url": "git@github.com:mikaelboff/ngx-mask.git"
     },
     "bugs": {
-        "url": "https://github.com/JsDaddy/ngx-mask/issues"
+        "url": "https://github.com/mikaelboff/ngx-mask/issues"
     },
     "peerDependencies": {
         "@angular/common": ">=10.0.0",
